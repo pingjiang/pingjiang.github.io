@@ -15,6 +15,6 @@ categories: []
 
 早期在cnblogs上的博客：[http://www.cnblogs.com/pingjiang](http://www.cnblogs.com/pingjiang)
 
-我的新浪微博：[http://weibo.com/pjshy](http://weibo.com/pjshy)
+我的新浪微博：<iframe allowtransparency="" border="0" frameborder="0" height="22" marginheight="0" marginwidth="0" scrolling="no" src="http://widget.weibo.com/relationship/followbutton.php?width=200&amp;height=22&amp;uid=1626728645&amp;style=5&amp;btn=red&amp;dpc=1" style="width: 64px; height: 22px;" width="200"></iframe>
 
 

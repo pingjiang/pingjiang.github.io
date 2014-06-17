@@ -6,7 +6,10 @@ url: http://pingjiang.github.io
 title: 平江的技术博客
 subtitle: Coding for better life
 author: 平江
-simple_search: https://www.google.com/search
+# http://www.baidu.com/s?q1=pingjiang&q6=pingjiang.github.io
+# https://www.google.com/search
+# http://www.baidu.com/baidu?word=Xcode&tn=bds&cl=3&ct=2097152&si=www.macx.cn
+simple_search: http://www.baidu.com/baidu
 description: 我喜欢编程，喜欢看书，喜欢不断学习和实践新的技术，我很乐意和大家一起分享的经验和总结。让我们一起用编程技术来解决实际问题，方便人们的学习和生活吧。
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
@@ -33,6 +36,7 @@ destination: public
 plugins: plugins
 code_dir: downloads/code
 category_dir: blog/categories
+category_title_prefix: 博客分类：
 markdown: rdiscount
 rdiscount:
   extensions:
