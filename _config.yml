@@ -3,11 +3,11 @@
 # ----------------------- #
 
 url: http://pingjiang.github.io
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+title: 平江的技术博客
+subtitle: Coding for better life
+author: 平江
 simple_search: https://www.google.com/search
-description:
+description: 我喜欢编程，喜欢看书，喜欢不断学习和实践新的技术，我很乐意和大家一起分享的经验和总结。让我们一起用编程技术来解决实际问题，方便人们的学习和生活吧。
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -17,9 +17,9 @@ date_format: "ordinal"
 
 # RSS / Email (optional) subscription links (change if using something like Feedburner)
 subscribe_rss: /atom.xml
-subscribe_email:
+subscribe_email: pingjiang1989@gmail.com
 # RSS feeds can list your email address if you like
-email:
+email: pingjiang1989@gmail.com
 
 # ----------------------- #
 #    Jekyll & Plugins     #
@@ -63,7 +63,7 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.
 # ----------------------- #
 
 # Github repositories
-github_user:
+github_user: pingjiang
 github_repo_count: 0
 github_show_profile_link: true
 github_skip_forks: true
@@ -78,7 +78,7 @@ google_plus_one_size: medium
 
 # Google Plus Profile
 # Hidden: No visible button, just add author information to search results
-googleplus_user:
+googleplus_user: pingjiang1989@gmail.com
 googleplus_hidden: false
 
 # Pinboard
