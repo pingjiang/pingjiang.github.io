@@ -1,0 +1,10 @@
+auhtor: pingjiang
+date: 2018-06-24
+items:
+  - name: VSCode
+    description: Microsoft VSCode
+    url: http://code.visualstudio.com
+  - name: sublimetext
+    description: fast text editor
+    url: http://sublimetext.com
+  
