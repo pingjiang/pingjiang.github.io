@@ -20,6 +20,9 @@ hexo publish "post"
 # 本地预览
 hexo server
 
+# clean 默认会开启缓存，所以发布之前最好clean一下
+hexo clean
+
 # 发布上线
 hexo deploy
 ```
@@ -27,10 +30,10 @@ hexo deploy
 ## 常用功能开关
 
 * 关闭评论 `comments: false` 
-* 引用Gist `{% gist gist_id [filename] %}`
-* 全屏图片 `{% fullimage /image-url, alt, title %}`
-* 引用文章 `{% post_link slug [title] %}`
-* 居中 `{% centerquote %}blah blah blah{% endcenterquote %}`
+* 引用Gist {% raw %}{% gist gist_id [filename] %}{% endraw %}
+* 全屏图片 {% raw %}{% fullimage /image-url, alt, title %}{% endraw %}
+* 引用文章 {% raw %}{% post_link slug [title] %}{% endraw %}
+* 居中 {% raw %}{% centerquote %}blah blah blah{% endcenterquote %}{% endraw %}
 
 ## 参考资料
 

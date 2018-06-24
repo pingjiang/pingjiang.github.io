@@ -306,7 +306,7 @@ wechat_subscriber:
 
 # Reward
 #reward_comment: Donate comment here
-wechatpay: /images/xdevtools-wechat.jpeg
+# wechatpay: /images/xdevtools-wechat.jpeg
 #alipay: /images/alipay.jpg
 #bitcoin: /images/bitcoin.png
 
