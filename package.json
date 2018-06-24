@@ -18,6 +18,7 @@
   },
   "devDependencies": {
     "hexo-deployer-git": "^0.3.1",
-    "hexo-generator-searchdb": "^1.0.8"
+    "hexo-generator-searchdb": "^1.0.8",
+    "hexo-symbols-count-time": "^0.4.2"
   }
 }
