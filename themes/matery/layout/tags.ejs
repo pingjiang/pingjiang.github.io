@@ -1,0 +1,11 @@
+<%- partial('_partial/bg-cover') %>
+
+<main class="content">
+
+    <% if (site.tags && site.tags.length > 0) { %>
+    <%- partial('_widget/tag-cloud') %>
+    <% } else { %>
+        <p>还没有标签...</p>
+    <% } %>
+
+</main>

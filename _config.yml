@@ -4,19 +4,20 @@
 
 # Site
 title: xdevtools
-subtitle: 分享开发工具
-description: 站在巨人的肩膀上开发卓越软件
+subtitle: 善用工具高效解决问题
+description: 思考、探索、创造、运用、打磨
 keywords: xdevtools,工具达人,技术博客
 author: pingjiang
 language: zh-CN
 timezone:
 email: pingjiang1989@gmail.com
 
+
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://blog.xdevtools.com
 root: /
-permalink: :title-:year:month:day/
+permalink: :title-:year-:month-:day/
 permalink_defaults:
 
 # Directory
@@ -40,11 +41,7 @@ render_drafts: false
 post_asset_folder: false
 relative_link: false
 future: true
-highlight:
-  enable: true
-  line_number: true
-  auto_detect: false
-  tab_replace:
+
   
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
@@ -75,7 +72,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: next
+theme: matery
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -84,6 +81,7 @@ deploy:
   repository: git@github.com:pingjiang/pingjiang.github.io.git
   branch: master
   message: 'Daily updated：{{now("YYYY-MM-DD HH:mm:ss")}} by pingjiang personal PC'
+
 
 # customize
 #1.头像
@@ -103,10 +101,26 @@ search:
 # Plugins: http://hexo.io/plugins/
 plugins: hexo-generate-feed
 
-# hexo-symbols-count-time 统计字数
-symbols_count_time:
-  symbols: true
-  time: true
-  total_symbols: true
-  total_time: true
+permalink_pinyin:
+  enable: true
+  separator: '-' # default: '-'
 
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
+  content_limit: 140
+  content_limit_delim: ' '
+  order_by: -date
+
+highlight:
+  enable: false
+
+prism_plugin:
+  mode: 'preprocess'    # realtime/preprocess
+  theme: 'tomorrow'
+  line_number: false    # default false
+  no_assets: true
+  custom_css:

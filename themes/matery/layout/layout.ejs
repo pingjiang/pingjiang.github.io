@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html lang="<%= config.language %>">
+<%- partial('_partial/head') %>
+
+<body>
+
+<%- partial('_partial/header') %>
+<%- body %>
+<%- partial('_partial/footer') %>
+
+<%- partial('_partial/search') %>
+<%- partial('_partial/back-top') %>
+
+<script src="<%- theme.libs.js.bundle %>"></script>
+</body>
+</html>
